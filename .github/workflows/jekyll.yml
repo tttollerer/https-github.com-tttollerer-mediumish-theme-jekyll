@@ -38,7 +38,7 @@ jobs:
         uses: ruby/setup-ruby@v1.207.0
         with:
           ruby-version: '3.1'  # Set the correct Ruby version for your project
-          bundler-cache: true  # Automatically handles bundle install and caches gems
+          bundler-cache: false  # Automatically handles bundle install and caches gems
           cache-version: 0  # Increment this if you need to clear the gem cache
       - name: Install Dependencies
         run: |
